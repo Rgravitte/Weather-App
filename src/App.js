@@ -49,11 +49,11 @@ class App extends React.Component{
 
           <div className="container">
             <div className="row">
-            <div className="col-xs-2"></div>
-              <div className="col-xs-3 title-container">
+            <div className="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+              <div className="col-xs-6 col-sm-4 col-md-4 col-lg-4 col-xl-4 title-container">
               <Titles />
               </div>
-              <div className="col-xs-5 form-container">
+              <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 form-container">
               <Form getWeather={this.getWeather} />
               <Weather 
                 temperature={this.state.temperature}
@@ -64,7 +64,7 @@ class App extends React.Component{
                 error={this.state.error}
               />
               </div>
-              <div className="col-xs-2"></div>
+              <div className="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
             </div>
           </div>
         </div>
